@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.container .header {
+  position: sticky;
+  top: calc(50% - 129px);
+}
+
+.container .header p {
+  margin: 0;
+  text-align: center;
+}
+
+.container .header #welcome {
+  font-size: 4em;
+}
+
+.container .header #name {
+  font-size: 6em;
+  font-weight: bold;
+}
+
+.container .header #location {
+  font-style: italic;
+  font-size: 2em;
+}
