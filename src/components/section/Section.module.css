@@ -44,30 +44,7 @@
   text-align: justify;
 }
 
-@media (max-width: 767px) and (min-width: 481px){
-  .container {
-    display: block;
-    width: 70%;
-  } 
-
-  .container img {
-    width: 100%;
-  }
-
-  .container .text {
-    padding: 0;
-  }
-
-  .container .text .header {
-    text-align: center;
-  }
-
-  .container .text .paragraph {
-    text-align: center;
-  }
-}
-
-@media (max-width: 480px) {
+@media (max-width: 1279px) {
   .container {
     display: block;
     width: 70%;
