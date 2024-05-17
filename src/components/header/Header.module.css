@@ -14,15 +14,15 @@
 }
 
 .container .header #welcome {
-  font-size: 4em;
+  font-size: 4rem;
 }
 
 .container .header #name {
-  font-size: 6em;
+  font-size: 6rem;
   font-weight: bold;
 }
 
 .container .header #location {
   font-style: italic;
-  font-size: 2em;
+  font-size: 2rem;
 }
