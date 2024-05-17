@@ -26,3 +26,16 @@
   font-style: italic;
   font-size: 2rem;
 }
+
+@media (max-width: 480px) {
+  .container .header {
+    top: calc(20%);
+  }
+}
+
+@media (max-width: 767px) and (min-width: 481px) {
+  .container .header {
+    top: calc(30%);
+  }
+
+}
