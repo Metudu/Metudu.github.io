@@ -44,7 +44,7 @@
   text-align: justify;
 }
 
-@media (max-width : 800px) {
+@media (max-width: 767px) and (min-width: 481px){
   .container {
     display: block;
     width: 70%;
@@ -58,7 +58,17 @@
     padding: 0;
   }
 
+  .container .text .header {
+    text-align: center;
+  }
+
   .container .text .paragraph {
     text-align: center;
   }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 75%;
+  } 
 }

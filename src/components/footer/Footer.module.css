@@ -19,10 +19,11 @@
   margin: 0 .2rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 767px) and (min-width: 481px){
   .container {
     justify-content: space-between;
     width: 70%;
+    text-align: center;
   }
 
   .container p {
@@ -34,3 +35,22 @@
     margin: 0 .2rem;
   }
 }
+
+@media (max-width: 480px) {
+  .container {
+    justify-content: space-between;
+    width: 75%;
+    text-align: center;
+  }
+
+  .container p {
+    font-size: 1em;
+  }
+
+  .container a {
+    font-size: 2em;
+    margin: 0 .2rem;
+  }
+  
+}
+

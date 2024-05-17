@@ -5,7 +5,7 @@
 
 .container .header {
   position: sticky;
-  top: calc(50% - 129px);
+  top: calc(50% - 7.625rem);
 }
 
 .container .header p {
