@@ -5,7 +5,6 @@
 
 .container .header {
   position: sticky;
-  top: calc(50% - 7.625rem);
 }
 
 .container .header p {
@@ -25,16 +24,4 @@
 .container .header #location {
   font-style: italic;
   font-size: 2rem;
-}
-
-@media (max-width: 480px) {
-  .container .header {
-    top: calc(20%);
-  }
-}
-
-@media (max-width: 1023px) and (min-width: 481px) {
-  .container .header {
-    top: calc(30%);
-  }
 }
