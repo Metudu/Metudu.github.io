@@ -43,3 +43,22 @@
   font-size: 1.5em; 
   text-align: justify;
 }
+
+@media (max-width : 800px) {
+  .container {
+    display: block;
+    width: 70%;
+  } 
+
+  .container img {
+    width: 100%;
+  }
+
+  .container .text {
+    padding: 0;
+  }
+
+  .container .text .paragraph {
+    text-align: center;
+  }
+}

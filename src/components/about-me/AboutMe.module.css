@@ -13,3 +13,17 @@
   font-size: 2em;
   text-align: justify;
 }
+
+@media (max-width : 800px) {
+  .container {
+    width: 80%;
+  }
+
+  .container img {
+    width: 60%;
+  } 
+
+  .container p {
+    text-align: center;
+  }
+}
