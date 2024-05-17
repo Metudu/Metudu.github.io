@@ -69,6 +69,23 @@
 
 @media (max-width: 480px) {
   .container {
-    width: 75%;
+    display: block;
+    width: 70%;
   } 
+
+  .container img {
+    width: 100%;
+  }
+
+  .container .text {
+    padding: 0;
+  }
+
+  .container .text .header {
+    text-align: center;
+  }
+
+  .container .text .paragraph {
+    text-align: center;
+  }
 }
