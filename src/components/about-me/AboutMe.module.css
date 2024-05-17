@@ -14,13 +14,13 @@
   text-align: justify;
 }
 
-@media (max-width: 767px){
+@media (max-width: 1279px){
   .container {
     width: 80%;
   }
 
   .container img {
-    width: 60%;
+    width: 75%;
   } 
 
   .container p {
